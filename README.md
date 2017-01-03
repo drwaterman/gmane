@@ -7,7 +7,7 @@ This application is an email archive analyzer that loads email messages into an 
 
 * **gbasic.py** prints the top email list participants, and the top organizations.
 
-* **gword.py** finds the most common words from subject lines and writes them in JSON to gword.js, which can be viewed as a word cloud at http://htmlpreview.github.io/?https://github.com/drwaterman/gmane/blob/master/gword.htm
+* **gword.py** finds the most common words from subject lines and writes them in JSON to gword.js
 
 * **gline.py** finds the participation by each domain by month and writes it in JSON to gline.js. This is the data format that can currently be viewed as a line graph at http://htmlpreview.github.io/?https://github.com/drwaterman/gmane/blob/master/gline2.htm
 
