@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Github is seeing the language as JavaScript because the libraries are bigger than the Python code. 
+# Tell Github to ignore the js files when checking the language.
+*.js linguist-vendored
